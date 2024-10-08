@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+      - run: |
+          echo "hello there!"
